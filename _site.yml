@@ -1,0 +1,35 @@
+name: "Financial Education"
+output_dir: "."
+navbar:
+  title: "Delta One Finance"
+  subtitle: "Simple Strategies Outperform"
+  icon: fa-home
+  left:
+    - text: "Financial Planning and Investments"
+      icon: fa-graduation-cap
+      menu:
+         - text: "Corporate Finance"
+           href: intro_corp_fin.html 
+           icon: fa-book
+         - text: "Investments"
+           href: investments.html
+           icon: fa-bar-chart
+         - text: "International Finance"
+           href: intl_finance.html
+           icon: glyphicon-euro
+         - text: "Financial Markets and Institutions"
+           href: fin_mkts.html
+           icon: fa-building
+    - text: "Write Your Own or Contribute"
+      icon: fa-pencil
+      menu:
+         - text: "How to Contribute using GitHub"
+           href: contributing.html
+           icon: fa-github
+         - text: "FAQ on Contributing"
+           href: faq.html
+           icon: fa-question-circle-o
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
